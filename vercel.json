@@ -1,6 +1,9 @@
 {
-    "trailingSlash": true,
     "redirects": [
+        {
+          "source": "/stripe-java",
+          "destination": "/stripe-java/index.html"
+        },
         {
           "source": "/veneur",
           "destination": "https://github.com/stripe/veneur/"
@@ -30,6 +33,10 @@
         {
           "source": "/stripe-java/(.*)",
           "destination": "https://stripe-java.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-ios",
+          "destination": "https://stripe-ios.vercel.app/"
         },
         {
           "source": "/stripe-ios/(.*)",
