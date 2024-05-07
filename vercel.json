@@ -32,14 +32,6 @@
           "destination": "https://stripe-java.vercel.app/$1"
         },
         {
-          "source": "/stripe-java",
-          "destination": "https://stripe-java.vercel.app/"
-        },
-        {
-          "source": "/stripe-ios",
-          "destination": "https://stripe-ios.vercel.app/"
-        },
-        {
           "source": "/stripe-ios/(.*)",
           "destination": "https://stripe-ios.vercel.app/$1"
         },
