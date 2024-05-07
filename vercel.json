@@ -1,9 +1,106 @@
 {
-  "trailingSlash": true,
-  "rewrites": [
-    {
-      "source": "/stripe-java/(.*)",
-      "destination": "https://stripe-java.vercel.app/$1"
-    }
-  ]
+    "redirects": [
+        {
+          "source": "/stripe-java",
+          "destination": "/stripe-java/index.html"
+        },
+        {
+          "source": "/veneur",
+          "destination": "https://github.com/stripe/veneur/"
+        },
+        {
+          "source": "/veneur/(.*)",
+          "destination": "https://github.com/stripe/veneur/"
+        },
+        {
+          "source": "/scalding",
+          "destination": "https://github.com/stripe-archive/scalding/"
+        },
+        {
+          "source": "/scalding/(.*)",
+          "destination": "https://github.com/stripe-archive/scalding/"
+        },
+        {
+          "source": "/sequins",
+          "destination": "https://github.com/stripe-archive/sequins/"
+        },
+        {
+          "source": "/sequins/(.*)",
+          "destination": "https://github.com/stripe-archive/sequins/"
+        }
+    ],
+    "rewrites": [
+        {
+          "source": "/stripe-java/(.*)",
+          "destination": "https://stripe-java.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-ios",
+          "destination": "https://stripe-ios.vercel.app/"
+        },
+        {
+          "source": "/stripe-ios/(.*)",
+          "destination": "https://stripe-ios.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-android/(.*)",
+          "destination": "https://stripe-android-beta.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-android",
+          "destination": "https://stripe-android-beta.vercel.app/"
+        },
+        {
+          "source": "/elements-examples",
+          "destination": "https://elements-examples.vercel.app/"
+        },
+        {
+          "source": "/elements-examples/(.*)",
+          "destination": "https://elements-examples.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-terminal-ios",
+          "destination": "https://stripe-terminal-ios.vercel.app/"
+        },
+        {
+          "source": "/stripe-terminal-ios/(.*)",
+          "destination": "https://stripe-terminal-ios.vercel.app/$1"
+        },
+        {
+          "source": "/stripe.github.io/(.*)",
+          "destination": "https://stripe-github-io.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-terminal-android",
+          "destination": "https://stripe-terminal-android.vercel.app/"
+        },
+        {
+          "source": "/stripe-terminal-android/(.*)",
+          "destination": "https://stripe-terminal-android.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-react-native",
+          "destination": "https://stripe-react-native-fawn.vercel.app/"
+        },
+        {
+          "source": "/stripe-react-native/(.*)",
+          "destination": "https://stripe-react-native-fawn.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-terminal-react-native",
+          "destination": "https://stripe-terminal-react-native.vercel.app/"
+        },
+        {
+          "source": "/stripe-terminal-react-native/(.*)",
+          "destination": "https://stripe-terminal-react-native.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-identity-react-native",
+          "destination": "https://stripe-identity-react-native.vercel.app/"
+        },
+        {
+          "source": "/stripe-identity-react-native/(.*)",
+          "destination": "https://stripe-identity-react-native.vercel.app/$1"
+        }
+    ]
 }
