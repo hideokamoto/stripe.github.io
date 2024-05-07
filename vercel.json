@@ -1,9 +1,15 @@
 {
-  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/stripe-java",
+      "destination": "/stripe-java/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
-      "source": "/stripe-java/:path*",
-      "destination": "https://stripe-java.vercel.app/:path*"
+      "source": "/stripe-java/(.*)",
+      "destination": "https://stripe-java.vercel.app/$1"
     }
   ]
 }
