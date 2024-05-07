@@ -27,6 +27,10 @@
         {
           "source": "/sequins/(.*)",
           "destination": "https://github.com/stripe-archive/sequins/"
+        },
+        {
+          "source": "/stripe-react-native",
+          "destination": "https://stripe-react-native-fawn.vercel.app/stripe-react-native/api-reference/index.html"
         }
     ],
     "rewrites": [
@@ -77,10 +81,6 @@
         {
           "source": "/stripe-terminal-android/(.*)",
           "destination": "https://stripe-terminal-android.vercel.app/$1"
-        },
-        {
-          "source": "/stripe-react-native",
-          "destination": "https://stripe-react-native-fawn.vercel.app/"
         },
         {
           "source": "/stripe-react-native/(.*)",
