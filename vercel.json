@@ -32,7 +32,7 @@
         },
         {
           "source": "/stripe-java",
-          "destination": "/stripe-java/"
+          "destination": "https://stripe-java.vercel.app/"
         },
         {
           "source": "/stripe-ios",
