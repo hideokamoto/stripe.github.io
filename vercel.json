@@ -22,7 +22,7 @@
         },
         {
           "source": "/stripe-java",
-          "destination": "/stripe-java/",
+          "destination": "/stripe-java/index.html",
           "permanent": true
         },
         {
