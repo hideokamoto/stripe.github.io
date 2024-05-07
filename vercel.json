@@ -1,4 +1,5 @@
 {
+    "trailingSlash": true,
     "redirects": [
         {
           "source": "/veneur",
@@ -21,11 +22,6 @@
           "destination": "https://github.com/stripe-archive/sequins/"
         },
         {
-          "source": "/stripe-java",
-          "destination": "/stripe-java/index.html",
-          "permanent": true
-        },
-        {
           "source": "/sequins/(.*)",
           "destination": "https://github.com/stripe-archive/sequins/"
         }
@@ -34,6 +30,10 @@
         {
           "source": "/stripe-java/(.*)",
           "destination": "https://stripe-java.vercel.app/$1"
+        },
+        {
+          "source": "/stripe-java",
+          "destination": "https://stripe-java.vercel.app/"
         },
         {
           "source": "/stripe-ios",
