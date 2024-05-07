@@ -1,11 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/stripe-java",
-      "destination": "/stripe-java/",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
       "source": "/stripe-java/(.*)",
