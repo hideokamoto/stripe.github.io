@@ -30,7 +30,15 @@
         },
         {
           "source": "/stripe-react-native",
-          "destination": "https://stripe-react-native-fawn.vercel.app/stripe-react-native/api-reference/index.html"
+          "destination": "https://stripe-react-native-fawn.vercel.app/api-reference/index.html"
+        },
+        {
+          "source": "/stripe-identity-react-native",
+          "destination": "https://stripe-identity-react-native.vercel.app/api-reference/index.html"
+        },
+        {
+          "source": "/stripe-terminal-react-native",
+          "destination": "https://stripe-terminal-react-native.vercel.app/api-reference/index.html"
         }
     ],
     "rewrites": [
@@ -87,16 +95,8 @@
           "destination": "https://stripe-react-native-fawn.vercel.app/$1"
         },
         {
-          "source": "/stripe-terminal-react-native",
-          "destination": "https://stripe-terminal-react-native.vercel.app/"
-        },
-        {
           "source": "/stripe-terminal-react-native/(.*)",
           "destination": "https://stripe-terminal-react-native.vercel.app/$1"
-        },
-        {
-          "source": "/stripe-identity-react-native",
-          "destination": "https://stripe-identity-react-native.vercel.app/"
         },
         {
           "source": "/stripe-identity-react-native/(.*)",
