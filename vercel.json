@@ -64,11 +64,11 @@
         },
         {
           "source": "/stripe-ios",
-          "destination": "https://stripe-ios.vercel.app/"
+          "destination": "https://hideokamoto.github.io/stripe-ios/"
         },
         {
           "source": "/stripe-ios/(.*)",
-          "destination": "https://stripe-ios.vercel.app/$1"
+          "destination": "https://hideokamoto.github.io/stripe-ios/$1"
         },
         {
           "source": "/stripe-android/(.*)",
