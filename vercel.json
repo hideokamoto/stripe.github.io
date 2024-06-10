@@ -59,6 +59,22 @@
     ],
     "rewrites": [
         {
+          "source": "/test2",
+          "destination": "https://ask-utils.github.io/ask-utils/"
+        },
+        {
+          "source": "/test2/(.*)",
+          "destination": "https://ask-utils.github.io/ask-utils/$1"
+        },
+        {
+          "source": "/test",
+          "destination": "https://hideokamoto.github.io/elements-examples"
+        },
+        {
+          "source": "/test/(.*)",
+          "destination": "https://hideokamoto.github.io/elements-examples/$1"
+        },
+        {
           "source": "/stripe-java/(.*)",
           "destination": "https://stripe-java.vercel.app/$1"
         },
