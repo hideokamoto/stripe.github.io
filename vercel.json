@@ -64,7 +64,7 @@
         },
         {
           "source": "/stripe-ios",
-          "destination": "https://hideokamoto.github.io/stripe-ios/"
+          "destination": "https://hideokamoto.github.io/stripe-ios/documentation/stripe/"
         },
         {
           "source": "/stripe-ios/(.*)",
