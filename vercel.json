@@ -68,11 +68,11 @@
       },
         {
           "source": "/stripe-ios",
-          "destination": "hhttps://stripe-ios.vercel.app/"
+          "destination": "hhttps://stripe-ios.vercel.app/stripe-ios"
         },
         {
           "source": "/stripe-ios/(.*)",
-          "destination": "hhttps://stripe-ios.vercel.app/$1"
+          "destination": "hhttps://stripe-ios.vercel.app/stripe-ios/$1"
         },
       {
         "source": "/stripe-android/(.*)",
