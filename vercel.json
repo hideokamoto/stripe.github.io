@@ -58,7 +58,7 @@
       },
         {
           "source": "/stripe-ios",
-          "destination": "https://stripe-ios.vercel.app/documentation/stripe/"
+          "destination": "/stripe-ios/documentation/stripe/"
         },
       {
         "source": "/stripe.github.io/(.*)",
