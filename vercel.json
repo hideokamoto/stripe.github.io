@@ -56,10 +56,6 @@
         "source": "/stripe.github.io",
         "destination": "/"
       },
-        {
-          "source": "/stripe-ios",
-          "destination": "/stripe-ios/documentation/stripe/"
-        },
       {
         "source": "/stripe.github.io/(.*)",
         "destination": "/"
@@ -70,6 +66,10 @@
         "source": "/stripe-java/(.*)",
         "destination": "https://stripe-java-six.vercel.app/$1"
       },
+        {
+          "source": "/stripe-ios",
+          "destination": "hhttps://stripe-ios.vercel.app/"
+        },
         {
           "source": "/stripe-ios/(.*)",
           "destination": "hhttps://stripe-ios.vercel.app/$1"
